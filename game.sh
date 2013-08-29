@@ -14,26 +14,31 @@ monster() {
 		monname="House cat"
 		monhealth=4
 		monattack=6
+		monspattack=8
 	fi
 	if [[ $choice -eq 2 ]]; then
 		monname="Tiger"
 		monhealth=17
 		monattack=19
+		monspattack=25
 	fi
 	if [[ $choice -eq 3 ]]; then
 		monname="Giraffe"
 		monhealth=70
 		monattack=4
+		monspattack=6
 	fi
 	if [[ $choice -eq 4 ]]; then
 		monname="Horse"
 		monhealth=14
 		monattack=8
+		monspattack=12
 	fi
 	if [[ $choice -eq 5 ]]; then
 		monname="Rabbit"
 		monhealth=2
 		monattack=3
+		monspattack=4
 	fi
 }
 
